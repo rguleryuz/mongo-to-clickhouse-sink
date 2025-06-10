@@ -1,0 +1,10 @@
+[package]
+name = "mongo-to-clickhouse-sink"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+mongodb = { version = "2", default-features = false, features = ["tokio-runtime"] }
+clickhouse = "0.7"
+tokio = { version = "1", features = ["macros", "rt-multi-thread"] }
+serde = { version = "1", features = ["derive"] }
