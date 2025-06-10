@@ -1,0 +1,1 @@
+# mongo-to-clickhouse-sink
